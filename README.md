@@ -1,16 +1,29 @@
 # vue3-tailwind3-website-starter
+"Nueva Jerusalén" es una aplicación web destinada a facilitar la gestión de trabajo, monitorear tareas y pagos pendientes, así como también administrar clientes. Aquí tienes una descripción de las características principales que podría tener esta aplicación:
 
-A nice and simple website start template using awesome things related to vue3 and tailwind3.
+Características principales:
 
-![screenshot](src/assets/screenshot.png)
+Gestión de órdenes de trabajo:
+La aplicación permite a los usuarios crear y administrar órdenes de trabajo para diferentes proyectos o tareas.
+Cada orden de trabajo incluye detalles como el nombre del proyecto, descripción, fecha de inicio, fecha de entrega, prioridad, asignación de personal, etc.
+Los usuarios pueden agregar comentarios, archivos adjuntos y actualizar el estado de las órdenes de trabajo a medida que avanzan.
+Monitoreo de tareas y secretaría:
+La aplicación proporciona una interfaz para monitorear el progreso de las tareas asignadas a los miembros del equipo.
+Los usuarios pueden ver el estado actual de cada tarea, los plazos de entrega y recibir notificaciones automáticas cuando se completen las tareas o cuando haya algún problema.
+Gestión de deudas:
+La aplicación registra las deudas pendientes, como pagos de clientes atrasados, facturas impagas, etc.
+Los usuarios pueden ver un resumen de sus deudas pendientes, así como recibir alertas automáticas cuando se acerque la fecha de vencimiento de un pago.
+Recordatorio de entregas:
+La aplicación cuenta con un sistema de recordatorio para notificar a los usuarios sobre las próximas entregas de proyectos o tareas.
+Los usuarios pueden establecer recordatorios personalizados y recibir notificaciones por correo electrónico o mensajes en la aplicación.
+Gestión de clientes:
+La aplicación almacena información detallada sobre los clientes, incluyendo nombres, información de contacto, historial de proyectos, notas, etc.
+Los usuarios pueden ver y editar la información de los clientes, así como realizar un seguimiento de las comunicaciones y transacciones con ellos.
+Interfaz de usuario intuitiva:
+La aplicación cuenta con una interfaz de usuario fácil de usar y bien organizada, que permite a los usuarios navegar fácilmente por las diferentes funciones y realizar tareas de manera eficiente.
 
-This template is **practical** and **batteries included** but not overly complex or bloated. Also explicit configuration over magic; it should be easy to understand how everything works, strip out anything you don't need, and fast to modify things to your needs.
 
-Includes plenty of **examples and documentation** of how to do things but **minimal cruft** to delete to get you going.
-
-Please check out the [demo](https://vue3-tailwind3-website-starter.vercel.app/) for example. A [detailed changelog](./CHANGES.md) is available.
-## Features
-
+## Características
 - Vue 3.2, Vite2, TypeScript
 - [pinia](https://github.com/vuejs/pinia) store
 - [Vue Router](https://github.com/vuejs/vue-router)
@@ -32,10 +45,6 @@ Please check out the [demo](https://vue3-tailwind3-website-starter.vercel.app/) 
 - Prettier
 - Alias `@` to `<project_root>/src`
 - Manually configured global components in `main.ts`
-- Predefined and fully typed global variables:
-  - `VITE_APP_VERSION` is read from `package.json` version at build time
-  - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
-- Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - Cypress.io component tests
 - GitHub workflows
@@ -46,9 +55,3 @@ Please check out the [demo](https://vue3-tailwind3-website-starter.vercel.app/) 
   - Automated e2e tests
   - Automated component tests
 
-## Thanks
-
-- [vitesse](https://github.com/antfu/vitesse)
-- [vite-ts-tailwind-starter](https://github.com/Uninen/vite-ts-tailwind-starter)
-"# funeraria_nueva_jerusalen" 
-"# funeraria_nueva_jerusalen" 
