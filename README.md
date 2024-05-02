@@ -1,4 +1,4 @@
-# vue3-tailwind3-website-starter
+# Nueva Jerusalén
 "Nueva Jerusalén" es una aplicación web destinada a facilitar la gestión de trabajo, monitorear tareas y pagos pendientes, así como también administrar clientes. Aquí tienes una descripción de las características principales que podría tener esta aplicación:
 
 Características principales:
